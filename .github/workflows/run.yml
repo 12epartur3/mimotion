@@ -2,11 +2,11 @@ name: 刷步数
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
-    - cron: 0 13 * * *
+    - cron: 0 8 * * *
 
 jobs:
   build:
